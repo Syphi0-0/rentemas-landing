@@ -18,7 +18,7 @@ const Us = ({ children }: Props) => {
           <div className={style.bigfoot}>
             <div className={style.utxt}>
               <div>
-                <h1 className={style.title}>NOSOTROS</h1>
+                <h1 className={style.title}>nosotros</h1>
               </div>
               <p className={style.bdytxt}>
                 Grupo Rentemas comenzó en 1969 con la renta de maquinaria ligera
