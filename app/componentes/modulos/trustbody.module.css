@@ -1,0 +1,8 @@
+.tbody{
+        width: 35rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }

@@ -1,0 +1,47 @@
+.clientes {
+  background-color: #fff;
+  height: 50vh;
+}
+.cbdy {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cslider {
+  height: 50%;
+  width: 100%;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  width: 95%;
+  display: flex;
+}
+.inside {
+  flex: 1;
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+}
+.inside > img {
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+  flex: 1;
+  min-width: none;
+  height: auto;
+}
+.ctxt {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #be2428;
+  top: 20%;
+}

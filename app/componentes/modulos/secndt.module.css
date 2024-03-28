@@ -1,0 +1,6 @@
+.secndt {
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

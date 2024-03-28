@@ -1,0 +1,10 @@
+.img{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    width: 19rem;
+    height: 23rem;
+}

@@ -1,0 +1,11 @@
+.num{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    left: 90%;
+    width: 10rem;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}

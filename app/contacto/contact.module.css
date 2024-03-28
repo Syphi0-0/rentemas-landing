@@ -1,0 +1,100 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+.contacto {
+  height: 100%;
+  width: 100%;
+  background-color: #9f2123;
+  display: flex;
+}
+.cmain {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 15%;
+}
+.cbody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.cmain > img {
+  height: 40%;
+}
+.cfooter {
+  position: relative;
+  height: 15%;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #424242;
+}
+.cinside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.coppose {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.model {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.leftInput {
+  width: 97%;
+  height: 2rem;
+  margin: 2px;
+  position: relative;
+  top: 5%;
+  margin: 5px;
+}
+.rightInput {
+  width: 97%;
+  height: 8rem;
+  margin: 2px;
+  position: relative;
+  top: 5.2rem;
+}
+.maintxt {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0%;
+}
+.txtdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.bodytxt {
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}

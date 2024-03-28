@@ -1,0 +1,56 @@
+.clientes {
+  background-color: #e1e1e1;
+  height: 75vh;
+}
+.cbdy {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cslider {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  position: relative;
+  height: 50%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inside {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 10%;
+}
+.slider.inside > img {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 15%;
+}
+
+.ctxt {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #be2428;
+  top: 20%;
+}

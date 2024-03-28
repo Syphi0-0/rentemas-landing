@@ -1,0 +1,74 @@
+.backg {
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+  text-align: justify;
+  color: black;
+  width: 100%;
+}
+.scndbackg {
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+  text-align: justify;
+  width: 100%;
+}
+.thrdbackg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+  text-align: justify;
+  color: black;
+}
+.frthbackg {
+  height: 100%;
+  display: flex;
+  object-fit: cover;
+  text-align: justify;
+  color: black;
+  width: 100%;
+}
+
+.boton {
+  display: flex;
+  width: 5rem;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.medium {
+  font-size: 15px;
+  font-weight: 400;
+}
+.btxt {
+  color: #be2428;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.hugetxt {
+  font-size: 32px;
+  font-weight: 700;
+}
+.hugered {
+  font-size: 32px;
+  font-weight: 700;
+  color: #be2428;
+}
+.xltxt {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+.redxl {
+  font-size: 36px;
+  font-weight: 700;
+  color: #be2428;
+}
+.xxltxt {
+  font-size: 64px;
+  font-weight: 700;
+  color: #be2428;
+}
