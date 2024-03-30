@@ -1,6 +1,14 @@
 .body {
   display: flex;
   align-items: center;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  background-color: darkorange;
+}
+.bdy {
+  display: flex;
+  align-items: center;
   height: 125vh;
   justify-content: center;
 }
