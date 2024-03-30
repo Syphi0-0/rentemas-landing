@@ -20,7 +20,6 @@ const Contact = ({ children }: Props) => {
                 <div className={style.txtdiv}>
                   <p className={style.bodytxt}>Whatsapp (614) 235 0078 </p>
                   <p className={style.bodytxt}>Oficina (614) 413 5000</p>
-                  <p>ola que tal</p>
                 </div>
                 <div className={style.txtdiv}>
                   <p className={style.bodytxt}>contacto@rentemas.com</p>
