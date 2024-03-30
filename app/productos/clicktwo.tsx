@@ -13,9 +13,7 @@ function Hovertwo() {
   return (
     <div className={style.hover}>
       <div className={style.mcontainer}>
-        <p className={style.mtxt}>
-          EQUIPO DE CONSTRUCCIÓN Y MAQUINARIA LIGERA EN RENTA Y VENTA
-        </p>
+        <p className={style.mtxt}>ECOSANITARIOS PORTÁTILES</p>
         <button onClick={toggle} className={style.vrtxt}>
           {selected ? "Ver menos" : "Ver más"}
         </button>

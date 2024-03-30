@@ -13,9 +13,7 @@ function Hoverthree() {
   return (
     <div className={style.hover}>
       <div className={style.mcontainer}>
-        <p className={style.mtxt}>
-          EQUIPO DE CONSTRUCCIÓN Y MAQUINARIA LIGERA EN RENTA Y VENTA
-        </p>
+        <p className={style.mtxt}>RECUBRIMIENTOS INDUSTRIALES</p>
         <button onClick={toggle} className={style.vrtxt}>
           {selected ? "Ver menos" : "Ver más"}
         </button>
@@ -23,11 +21,15 @@ function Hoverthree() {
       {selected && (
         <div className={style.card}>
           <div className={style.bdytxt}>
-            <h2 className={style.title}>ECOSANITARIOS PORTÁTILES</h2>
+            <h2 className={style.title}>RECUBRIMIENTOS INDUSTRIALES</h2>
             <ul>
-              <li>Sanitarios portátiles para construcción</li>
-              <li>Sanitarios portátiles para minas</li>
-              <li>Sanitarios portátiles para eventos</li>
+              <li>Reparación de pisos de concreto en naves industriales</li>
+              <li>
+                Pisos epóxicos resistentes a químicos, anti derrapantes,
+                antiestáticos, morteros epoxicos, etc.
+              </li>
+              <li>Pisos especiales para industria alimenticia.</li>
+              <li>Pulidos de pisos de concreto.</li>
             </ul>
           </div>
           <div className={style.bdyimg}>
