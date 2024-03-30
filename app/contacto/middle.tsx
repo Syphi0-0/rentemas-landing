@@ -11,7 +11,7 @@ const Contact = ({ children }: Props) => {
     <div className={main.middle}>
       {children}
       <div className={style.cmain}>
-        <Image src={"/mapa.png"} alt={"map"} height={413} width={1119} />
+        <Image src={"/mapa.png"} alt={"map"} height={413} width={1000} />
         <div className={style.cbody}>
           <div className={style.contacto}>
             <div className={style.cinside}>
