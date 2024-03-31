@@ -14,7 +14,12 @@ const carrusel = ({ children }: Props) => {
   return (
     <div>
       {children}
-      <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
+      <Carousel
+        showThumbs={false}
+        autoPlay={true}
+        infiniteLoop={true}
+        showIndicators={false}
+      >
         <div className={style.backg}>
           <Text>
             <h1 className={style.title}>
