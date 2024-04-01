@@ -40,19 +40,16 @@
   gap: 1rem;
 }
 
-.bdyimg > img {
-  object-fit: cover;
-  object-position: center;
-  flex: 1;
-  min-width: none;
-  height: auto;
-  width: 1px;
-  border-radius: 1rem;
-}
 .inimg {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  border-radius: 1rem;
+  justify-content: space-evenly;
+}
+.inimg > img {
+  object-fit: cover;
+  border-radius: 1rem;
 }
 
 .title {

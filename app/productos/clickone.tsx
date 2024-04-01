@@ -53,13 +53,13 @@ function Hoverone() {
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg1.png"}
+                src={"/10752.jpg"}
                 alt={"lacaca2"}
               />
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg1.png"}
+                src={"/14857.jpg"}
                 alt={"lacaca2"}
               />
             </div>
@@ -67,13 +67,13 @@ function Hoverone() {
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg2.png"}
+                src={"/13739.jpg"}
                 alt={"lacaca3"}
               />
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg2.png"}
+                src={"/13786.jpg"}
                 alt={"lacaca3"}
               />
             </div>
@@ -81,13 +81,13 @@ function Hoverone() {
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg3.png"}
+                src={"/11571.jpg"}
                 alt={"lacaca4"}
               />
               <Image
                 width={300}
                 height={220}
-                src={"/hoveroneimg3.png"}
+                src={"/14807.jpg"}
                 alt={"lacaca4"}
               />
             </div>

@@ -49,10 +49,6 @@
   width: 1px;
   border-radius: 1rem;
 }
-.inimg {
-  display: flex;
-  flex-direction: column;
-}
 .title {
   font-size: 24px;
   font-weight: 700;

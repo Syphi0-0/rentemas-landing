@@ -33,11 +33,11 @@
 .boton {
   display: flex;
   width: 5rem;
-  opacity: 75%;
   transition: all 1s;
+  color: #be2428;
 }
 .boton:hover {
-  opacity: 100%;
+  color: #e66f75;
   transition: all 0.5s;
 }
 .title {
@@ -49,7 +49,6 @@
   font-weight: 400;
 }
 .btxt {
-  color: #be2428;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;

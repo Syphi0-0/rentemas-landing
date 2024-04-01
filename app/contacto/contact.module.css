@@ -27,9 +27,14 @@
 }
 .cfooter {
   position: relative;
+  top: 15px;
   height: 15%;
-  margin-top: 10px;
   background-color: #424242;
+  transition: all 1s;
+}
+.cfooter:hover {
+  transition: all 0.5s;
+  border-radius: 1rem;
 }
 .cinside {
   height: 100%;
