@@ -1,9 +1,7 @@
 import style from "./modulos/second.module.css";
 import txt from "./modulos/alltextos.module.css";
-import wpp from "./modulos/wpp.module.css";
 import Wpp from "/public/.png";
 import Image from "next/image";
-import scndt from "./modulos/secndt.module.css";
 import Link from "next/link";
 
 type Props = {
@@ -14,12 +12,12 @@ const Sec = ({ children }: Props) => {
   return (
     <div className={style.second}>
       {children}
-      <div className={wpp.wpp}>
+      <div className={style.wpp}>
         <a>
           <Image src={Wpp} alt={"wpp"} height={56} width={56}></Image>
         </a>
       </div>
-      <div className={scndt.secndt}>
+      <div className={style.secndt}>
         <h1 className={txt.t24w}>Productos y Servicios</h1>
         <ul className={txt.t15c}>
           <li className={txt.t15c}>

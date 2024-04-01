@@ -11,9 +11,7 @@ const Us = ({ children }: Props) => {
     <div className={style.us}>
       {children}
       <div className={style.body}>
-        <div className={style.img}>
-          <Image src={back} alt={"logo"} height={561} width={580} />
-        </div>
+        <div className={style.img}></div>
         <div className={style.imgop}>
           <div className={style.bigfoot}>
             <div className={style.utxt}>

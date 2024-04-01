@@ -14,8 +14,14 @@ const Trust = ({ children }: Props) => {
     <div className={style.trust}>
       {children}
       <p className={txt.t15t}>ELLOS CONFÍAN EN NOSOTROS</p>
-      <Carousel showThumbs={false} infiniteLoop={true} showIndicators={false}>
-        <div className={tbdy.tbody}>
+      <Carousel
+        showThumbs={false}
+        infiniteLoop={true}
+        showIndicators={false}
+        showStatus={false}
+        autoPlay={true}
+      >
+        <div className={style.tbody}>
           <div>
             <p className={txt.t15}>
               “Yo trabajo con Rentemas porque tienen maquinaria en buen estado y
@@ -26,26 +32,27 @@ const Trust = ({ children }: Props) => {
             <p className={txt.t15r}>VALLEKAS Santiago Pérez B.</p>
           </div>
         </div>
-        <div className={tbdy.tbody}>
+        <div className={style.tbody}>
           <div>
             <p className={txt.t15}>
-              “Yo trabajo con Rentemas porque tienen maquinaria en buen estado y
-              si me falla la máquina me la cambian.”
+              “Compro máaquinas nuevas y si se echan a perder las reparan ellos
+              mismos, dos servicios a la vez.
             </p>
           </div>
           <div>
-            <p className={txt.t15r}>VALLEKAS Santiago Pérez B.</p>
+            <p className={txt.t15r}>Contructora LERMA Ing. Manolo Lerma</p>
           </div>
         </div>
-        <div className={tbdy.tbody}>
+        <div className={style.tbody}>
           <div>
             <p className={txt.t15}>
-              “Yo trabajo con Rentemas porque tienen maquinaria en buen estado y
-              si me falla la máquina me la cambian.”
+              “En Rentemas siempre me recomiendan qué me sirve más y qué me
+              conviene más. A la hora de comprar equipo, me ofrecen varias
+              opciones”
             </p>
           </div>
           <div>
-            <p className={txt.t15r}>VALLEKAS Santiago Pérez B.</p>
+            <p className={txt.t15r}>Constructora RASCON Ing. Alfonso Rascon</p>
           </div>
         </div>
       </Carousel>

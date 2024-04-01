@@ -31,6 +31,9 @@ function Hoverthree() {
               <li>Pisos especiales para industria alimenticia.</li>
               <li>Pulidos de pisos de concreto.</li>
             </ul>
+            <button onClick={toggle} className={style.vrtxt}>
+              {selected ? "Ver menos" : "Ver más"}
+            </button>
           </div>
           <div className={style.bdyimg}>
             <Image

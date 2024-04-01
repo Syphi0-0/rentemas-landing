@@ -1,96 +1,102 @@
-.cont{
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 70vh;
-    justify-content: center;
+.cont {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
 }
-.contacto{
-    position: relative;
-    height: 80%;
-    background-color: #9F2123;
-    display: flex;
+.contacto {
+  position: relative;
+  height: 80%;
+  background-color: #9f2123;
+  display: flex;
 }
-.cmain{
-    position: relative;
-    height: 100%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    bottom: 35%;
+
+.cmain {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: 35%;
 }
-.cfooter{
-    position: relative;
-    height: 15%;
-    background-color: #424242;
+.cfooter {
+  height: 15%;
+  background-color: #424242;
+  transition: all 1s;
 }
-.cinside{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+.cinside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
-.coppose{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.coppose {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-.model{
-    height: 90%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.model {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-.leftInput{
-    width: 97%;
-    height: 2rem;
-    margin: 2px;
-    position: relative;
-    top: 5%;
-    margin: 5px;
+.leftInput {
+  width: 97%;
+  height: 2rem;
+  margin: 2px;
+  position: relative;
+  top: 5%;
+  margin: 5px;
 }
-.rightInput{
-    width: 97%;
-    height: 8rem;
-    margin: 2px;
-    position: relative;
-    top: 5rem;
+.rightInput {
+  width: 97%;
+  height: 8rem;
+  margin: 2px;
+  position: relative;
+  top: 5rem;
 }
-.maintxt{
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
-    margin: 0%;
+.maintxt {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0%;
 }
-.txtdiv{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px;
+.txtdiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
 }
-.bodytxt{
-    font-size: 12px;
-    font-weight: 300;
-    color: white;
-    padding: 0%;
-    margin: 0%;
+.bodytxt {
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  padding: 0%;
+  margin: 0%;
 }
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    top: 15%;
+.footer {
+  color: white;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+.cfooter:hover {
+  transition: all 0.5s;
+  border-radius: 1rem;
 }

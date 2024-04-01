@@ -31,17 +31,15 @@
 }
 .inside > img {
   margin: 0 auto;
-  object-fit: cover;
   object-position: center;
   flex: 1;
   min-width: none;
   height: auto;
 }
 .ctxt {
-  position: absolute;
+  padding: 5rem;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
   color: #be2428;
-  top: 20%;
 }

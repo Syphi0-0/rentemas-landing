@@ -27,6 +27,9 @@ function Hovertwo() {
               <li>Sanitarios portátiles para minas</li>
               <li>Sanitarios portátiles para eventos</li>
             </ul>
+            <button onClick={toggle} className={style.vrtxt}>
+              {selected ? "Ver menos" : "Ver más"}
+            </button>
           </div>
           <div className={style.bdyimg}>
             <Image

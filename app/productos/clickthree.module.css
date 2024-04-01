@@ -1,7 +1,6 @@
 .hover {
   display: flex;
   flex-direction: column;
-  background-color: #9f2123;
   color: #fff;
 }
 .mcontainer {
@@ -24,9 +23,9 @@
 .card {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
+  background-color: #9f2123;
 }
-
 .bdytxt {
   flex: 1;
   padding: 6rem 0 6rem 9rem;
@@ -50,7 +49,10 @@
   width: 1px;
   border-radius: 1rem;
 }
-
+.inimg {
+  display: flex;
+  flex-direction: column;
+}
 .title {
   font-size: 24px;
   font-weight: 700;

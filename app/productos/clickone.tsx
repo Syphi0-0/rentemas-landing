@@ -44,26 +44,53 @@ function Hoverone() {
               <li>Herramienta para concreto marca MARSHALLTOWN.</li>
               <li>Discos diamantados para corte de concreto.</li>
             </ul>
+            <button onClick={toggle} className={style.vrtxt}>
+              {selected ? "Ver menos" : "Ver más"}
+            </button>
           </div>
           <div className={style.bdyimg}>
-            <Image
-              width={300}
-              height={420}
-              src={"/hoveroneimg1.png"}
-              alt={"lacaca2"}
-            />
-            <Image
-              width={300}
-              height={420}
-              src={"/hoveroneimg2.png"}
-              alt={"lacaca3"}
-            />
-            <Image
-              width={300}
-              height={420}
-              src={"/hoveroneimg3.png"}
-              alt={"lacaca4"}
-            />
+            <div className={style.inimg}>
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg1.png"}
+                alt={"lacaca2"}
+              />
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg1.png"}
+                alt={"lacaca2"}
+              />
+            </div>
+            <div className={style.inimg}>
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg2.png"}
+                alt={"lacaca3"}
+              />
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg2.png"}
+                alt={"lacaca3"}
+              />
+            </div>
+            <div className={style.inimg}>
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg3.png"}
+                alt={"lacaca4"}
+              />
+              <Image
+                width={300}
+                height={220}
+                src={"/hoveroneimg3.png"}
+                alt={"lacaca4"}
+              />
+            </div>
           </div>
         </div>
       )}

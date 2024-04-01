@@ -19,6 +19,8 @@ const carrusel = ({ children }: Props) => {
         autoPlay={true}
         infiniteLoop={true}
         showIndicators={false}
+        showStatus={false}
+        stopOnHover={true}
       >
         <div className={style.backg}>
           <Text>

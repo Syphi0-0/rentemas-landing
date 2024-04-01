@@ -7,3 +7,58 @@
   align-items: center;
   top: 65%;
 }
+.dphoto {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.imgone {
+  display: flex;
+  flex-direction: column;
+  color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  width: 21rem;
+  padding: 1rem;
+  transition: all 1s;
+  height: 21rem;
+  background: url("/ventajas-de-la-maquinaria-ligera-en-la-construccion 1.png");
+}
+.imgtwo {
+  display: flex;
+  flex-direction: column;
+  color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  width: 21rem;
+  padding: 1rem;
+  transition: all 1s;
+  height: 21rem;
+  background: url("/WhatsApp Image 2024-02-27 at 3.48 1.png");
+  object-position: center;
+}
+.imgthree {
+  display: flex;
+  flex-direction: column;
+  color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  width: 21rem;
+  padding: 1rem;
+  transition: all 1s;
+  height: 21rem;
+  background: url("/maxresdefault 3.png");
+}
+.imgone:hover {
+  width: 31rem;
+  transition: all 0.5s;
+}
+.imgtwo:hover {
+  width: 31rem;
+  transition: all 0.5s;
+}
+.imgthree:hover {
+  width: 31rem;
+  transition: all 0.5s;
+}

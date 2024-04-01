@@ -33,6 +33,12 @@
 .boton {
   display: flex;
   width: 5rem;
+  opacity: 75%;
+  transition: all 1s;
+}
+.boton:hover {
+  opacity: 100%;
+  transition: all 0.5s;
 }
 .title {
   font-size: 24px;

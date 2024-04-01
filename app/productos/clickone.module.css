@@ -49,6 +49,11 @@
   width: 1px;
   border-radius: 1rem;
 }
+.inimg {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 .title {
   font-size: 24px;
