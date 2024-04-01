@@ -96,10 +96,13 @@
   margin: 0%;
 }
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
+  background: transparent;
   font-size: 15px;
   font-weight: 400;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1.6rem;
+  cursor: pointer;
 }

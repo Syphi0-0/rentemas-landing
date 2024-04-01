@@ -45,8 +45,8 @@ const Contact = ({ children }: Props) => {
             </div>
           </div>
           <div className={style.cfooter}>
-            <div className={style.footer}>
-              <p>Enviar</p>
+            <div>
+              <button className={style.footer}>Enviar</button>
             </div>
           </div>
         </div>
