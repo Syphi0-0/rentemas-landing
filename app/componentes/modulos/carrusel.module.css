@@ -5,6 +5,7 @@
   text-align: justify;
   color: black;
   width: 100%;
+  background: no-repeat;
 }
 .scndbackg {
   height: 100%;
@@ -12,6 +13,7 @@
   object-fit: cover;
   text-align: justify;
   width: 100%;
+  background: no-repeat;
 }
 .thrdbackg {
   height: 100%;
@@ -20,6 +22,7 @@
   object-fit: cover;
   text-align: justify;
   color: black;
+  background: no-repeat;
 }
 .frthbackg {
   height: 100%;
@@ -28,6 +31,7 @@
   text-align: justify;
   color: black;
   width: 100%;
+  background: no-repeat;
 }
 
 .boton {
