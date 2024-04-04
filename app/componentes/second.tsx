@@ -46,7 +46,7 @@ const Sec = ({ children }: Props) => {
               height="12px"
               width="18px"
             />
-            Ver más
+            Vermás
           </p>
         </Link>
       </div>

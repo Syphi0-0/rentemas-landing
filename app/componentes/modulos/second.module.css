@@ -11,9 +11,10 @@
 }
 .boton {
   display: flex;
-  width: 5rem;
+  width: 6rem;
   align-items: center;
   opacity: 75%;
+  gap: 5px;
   transition: all 1s;
 }
 .boton:hover {

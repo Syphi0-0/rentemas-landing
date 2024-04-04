@@ -41,7 +41,7 @@ const carrusel = ({ children }: Props) => {
                   src="/boton.png"
                   alt="poligono"
                   height="25px"
-                  width="35px"
+                  width="25px"
                 />
                 Contáctanos
               </p>
@@ -66,7 +66,7 @@ const carrusel = ({ children }: Props) => {
                   src="/boton.png"
                   alt="poligono"
                   height="25px"
-                  width="35px"
+                  width="25px"
                 />
                 <>Ver más</>
               </p>
@@ -84,7 +84,7 @@ const carrusel = ({ children }: Props) => {
                   src="/boton.png"
                   alt="poligono"
                   height="25px"
-                  width="35px"
+                  width="25px"
                 />
                 <>Ver más</>
               </p>
@@ -107,7 +107,7 @@ const carrusel = ({ children }: Props) => {
                   src="/boton.png"
                   alt="poligono"
                   height="25px"
-                  width="35px"
+                  width="25px"
                 />
                 <>Ver más</>
               </p>

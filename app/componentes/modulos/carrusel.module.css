@@ -36,14 +36,16 @@
 
 .boton {
   display: flex;
-  width: 5rem;
   transition: all 1s;
   color: #be2428;
+  padding: 5px;
+  width: fit-content;
 }
 .boton:hover {
   color: #e66f75;
   transition: all 0.5s;
 }
+
 .title {
   font-size: 24px;
   font-weight: 700;
