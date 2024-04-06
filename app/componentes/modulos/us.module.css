@@ -13,14 +13,14 @@
 .utxt {
   position: relative;
   background-color: #f5f5f5e5;
-  width: auto;
   height: 14rem;
   top: 15%;
   right: 30%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
 }
 .foottxt {
   color: #fafafa;
@@ -30,7 +30,6 @@
 .decor {
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -39,13 +38,11 @@
 .bdytxt {
   font-size: 15px;
   font-weight: 300;
-  margin: 1rem;
 }
 .title {
   color: #be2428;
   font-size: 24px;
   font-weight: 700;
-  margin: 1rem;
 }
 .img {
   flex: 1;

@@ -1,7 +1,6 @@
 "use client";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import TextT from "./text2";
 import style from "./modulos/carrusel.module.css";
 import Link from "next/link";
 

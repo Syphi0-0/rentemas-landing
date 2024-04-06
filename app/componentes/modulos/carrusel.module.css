@@ -7,6 +7,9 @@
   width: 100%;
   background: no-repeat;
 }
+.backg > img {
+  height: 100%;
+}
 .scndbackg {
   height: 100%;
   display: flex;
@@ -14,6 +17,9 @@
   text-align: justify;
   width: 100%;
   background: no-repeat;
+}
+.scndbackg > img {
+  height: 100%;
 }
 .thrdbackg {
   height: 100%;
@@ -24,6 +30,9 @@
   color: black;
   background: no-repeat;
 }
+.thrdbackg > img {
+  height: 100%;
+}
 .frthbackg {
   height: 100%;
   display: flex;
@@ -32,6 +41,9 @@
   color: black;
   width: 100%;
   background: no-repeat;
+}
+.frthbackg > img {
+  height: 100%;
 }
 .mtxt {
   width: 37rem;
