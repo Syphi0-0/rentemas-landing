@@ -1,7 +1,6 @@
 "use client";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Text from "./text";
 import TextT from "./text2";
 import style from "./modulos/carrusel.module.css";
 import Link from "next/link";
@@ -23,7 +22,7 @@ const carrusel = ({ children }: Props) => {
         stopOnHover={true}
       >
         <div className={style.backg}>
-          <Text>
+          <div className={style.mtxt}>
             <h1 className={style.title}>
               COTIZA TU OBRA. ¡NOSOTROS TE AYUDAMOS!
             </h1>
@@ -35,22 +34,24 @@ const carrusel = ({ children }: Props) => {
               Confía en nosotros para superar cualquier desafío y llevar tus
               proyectos al siguiente nivel.
             </p>
-            <Link className={style.btxt} href="/contacto">
-              <p className={style.boton}>
-                <img
-                  src="/boton.png"
-                  alt="poligono"
-                  height="25px"
-                  width="25px"
-                />
-                Contáctanos
-              </p>
-            </Link>
-          </Text>
+            <div className={style.link}>
+              <Link className={style.btxt} href="/contacto">
+                <p className={style.boton}>
+                  <img
+                    src="/boton.png"
+                    alt="poligono"
+                    height="25px"
+                    width="25px"
+                  />
+                  Contáctanos
+                </p>
+              </Link>
+            </div>
+          </div>
           <img src="maxresdefault 2.png" />
         </div>
         <div className={style.scndbackg}>
-          <Text>
+          <div className={style.mtxt}>
             <h2 className={style.title}>Tenemos tambien para ti...</h2>
             <p className={style.hugetxt}>
               BAÑOS<b className={style.hugered}>PORTÁTILES</b> ECO
@@ -60,40 +61,34 @@ const carrusel = ({ children }: Props) => {
               Para eventos al aire libre, sitios de construcción o lugares donde
               se requiere una solución temporal debido mantenimiento.
             </p>
-            <Link className={style.btxt} href="/productos">
-              <p className={style.boton}>
-                <img
-                  src="/boton.png"
-                  alt="poligono"
-                  height="25px"
-                  width="25px"
-                />
-                <>Ver más</>
-              </p>
-            </Link>
-          </Text>
+            <div className={style.link}>
+              <Link className={style.btxt} href="/productos">
+                <p className={style.boton}>
+                  <img src="/boton.png" height="25px" width="25px" />
+                  <>Ver&nbsp;más</>
+                </p>
+              </Link>
+            </div>
+          </div>
           <img src="/RENTEMAS WEB_Mesa de trabajo 1 2.png" />
         </div>
         <div className={style.thrdbackg}>
-          <Text>
+          <div className={style.mtxt}>
             <h1 className={style.xltxt}>TODA LA HERRAMIENTA</h1>
             <p className={style.xxltxt}>MARSHALLTOWN</p>
-            <Link className={style.btxt} href="/productos">
-              <p className={style.boton}>
-                <img
-                  src="/boton.png"
-                  alt="poligono"
-                  height="25px"
-                  width="25px"
-                />
-                <>Ver más</>
-              </p>
-            </Link>
-          </Text>
+            <div className={style.link}>
+              <Link className={style.btxt} href="/productos">
+                <p className={style.boton}>
+                  <img src="/boton.png" height="25px" width="25px" />
+                  <>Ver&nbsp;más</>
+                </p>
+              </Link>
+            </div>
+          </div>
           <img src="/RENTEMAS WEB-02 2.png" />
         </div>
         <div className={style.frthbackg}>
-          <TextT>
+          <div className={style.mtxt}>
             <h1 className={style.xltxt}>
               VENTA DE <b className={style.redxl}>MAQUINARÍA LIGERA</b>
             </h1>
@@ -101,18 +96,15 @@ const carrusel = ({ children }: Props) => {
               Contamos con gran variedad de tipos y tamaños para adaptarse a
               diferentes tipos de proyectos y necesidades específicas
             </p>
-            <Link className={style.btxt} href="/productos">
-              <p className={style.boton}>
-                <img
-                  src="/boton.png"
-                  alt="poligono"
-                  height="25px"
-                  width="25px"
-                />
-                <>Ver más</>
-              </p>
-            </Link>
-          </TextT>
+            <div className={style.link}>
+              <Link className={style.btxt} href="/productos">
+                <p className={style.boton}>
+                  <img src="/boton.png" height="25px" width="25px" />
+                  <>Ver&nbsp;más</>
+                </p>
+              </Link>
+            </div>
+          </div>
           <img src="/RENTEMAS WEB_Mesa de trabajo 1 copia 1.png" />
         </div>
       </Carousel>

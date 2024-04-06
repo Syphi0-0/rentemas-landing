@@ -36,8 +36,12 @@
   min-width: none;
   height: auto;
 }
+.title {
+  flex: 1;
+  display: flex;
+  padding: 10%;
+}
 .ctxt {
-  padding: 5rem;
   font-size: 24px;
   font-weight: 700;
   text-align: center;

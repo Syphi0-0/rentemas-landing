@@ -22,7 +22,9 @@ class Clients extends Component {
     return (
       <div className={style.clientes}>
         <div className={style.cbdy}>
-          <p className={style.ctxt}>NUESTROS CLIENTES</p>
+          <div className={style.title}>
+            <p className={style.ctxt}>NUESTROS CLIENTES</p>
+          </div>
           <div className={style.cslider}>
             <Slider className={style.slider} {...settings}>
               <div className={style.inside}>

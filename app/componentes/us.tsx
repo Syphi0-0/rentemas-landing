@@ -1,6 +1,4 @@
 import style from "./modulos/us.module.css";
-import Image from "next/image";
-import back from "/public/WhatsApp Image 2024-02-15 at 3.42 1.png";
 
 type Props = {
   children?: React.ReactNode;
@@ -15,8 +13,12 @@ const Us = ({ children }: Props) => {
         <div className={style.imgop}>
           <div className={style.bigfoot}>
             <div className={style.utxt}>
+              <div className={style.decor}>
+                <img src="/boton.png" height="40px" width="70px" />
+                <img src="/boton.png" height="40px" width="70px" />
+              </div>
               <div>
-                <h1 className={style.title}>nosotros</h1>
+                <h1 className={style.title}>NOSOTROS</h1>
               </div>
               <p className={style.bdytxt}>
                 Grupo Rentemas comenzó en 1969 con la renta de maquinaria ligera

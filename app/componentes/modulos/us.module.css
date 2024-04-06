@@ -27,19 +27,31 @@
   font-size: 15px;
   font-weight: 700;
 }
+.decor {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 20%;
+}
 .bdytxt {
   font-size: 15px;
   font-weight: 300;
+  margin: 1rem;
 }
 .title {
   color: #be2428;
   font-size: 24px;
   font-weight: 700;
+  margin: 1rem;
 }
 .img {
   flex: 1;
-  height: 35rem;
-  background: url("/WhatsApp Image 2024-02-15 at 3.42 1.png");
+  height: 41rem;
+  background: url("/WhatsApp Image 2024-02-15 at 3.42 1.png") no-repeat;
+  object-fit: cover;
 }
 .imgop {
   flex: 1;

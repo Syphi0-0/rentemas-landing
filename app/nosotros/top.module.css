@@ -5,7 +5,8 @@
   flex: 1;
   align-items: center;
   justify-content: center;
-  background: url("/epoxy-and-waxed-flooring-with-colorful-signage-2023-11-27-05-00-56-utc 1.png");
+  background: url("/epoxy-and-waxed-flooring-with-colorful-signage-2023-11-27-05-00-56-utc 1.png")
+    no-repeat;
   object-fit: cover;
 }
 .mtxt {

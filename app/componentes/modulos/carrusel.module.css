@@ -33,13 +33,23 @@
   width: 100%;
   background: no-repeat;
 }
-
+.mtxt {
+  width: 37rem;
+  justify-content: center;
+  position: absolute;
+  align-self: center;
+  margin: 10%;
+}
+.link {
+  display: flex;
+}
 .boton {
   display: flex;
   transition: all 1s;
+  height: 2rem;
   color: #be2428;
-  padding: 5px;
-  width: fit-content;
+  gap: 5px;
+  align-items: center;
 }
 .boton:hover {
   color: #e66f75;
@@ -82,4 +92,6 @@
   font-size: 64px;
   font-weight: 700;
   color: #be2428;
+  margin: 0;
+  padding: 0;
 }

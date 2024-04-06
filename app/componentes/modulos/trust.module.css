@@ -1,20 +1,22 @@
 .trust {
-  position: relative;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: 90vh;
   justify-content: center;
   gap: 1rem;
 }
 .tbody {
-  height: 100%;
+  height: 30%;
   display: flex;
-  justify-content: center;
-  text-align: center;
   align-items: center;
+  justify-self: center;
+}
+.tcarrusel {
+  display: flex;
+  width: 40%;
+  margin: 0;
+  position: relative;
+  left: 30%;
   flex-direction: column;
-  width: 100%;
-  gap: 3rem;
+  align-items: center;
 }

@@ -12,14 +12,9 @@ const Sec = ({ children }: Props) => {
   return (
     <div className={style.second}>
       {children}
-      <div className={style.wpp}>
-        <a>
-          <Image src={Wpp} alt={"wpp"} height={56} width={56}></Image>
-        </a>
-      </div>
       <div className={style.secndt}>
         <h1 className={txt.t24w}>Productos y Servicios</h1>
-        <ul className={txt.t15c}>
+        <ul id="lista" className={txt.t15c}>
           <li className={txt.t15c}>
             Renta, venta y reparación de maquinaria ligera para construcción y
             motores pequeños de las mejores marcas.
@@ -40,15 +35,15 @@ const Sec = ({ children }: Props) => {
         </ul>
         <Link className={style.btxt} href="/productos">
           <p className={style.boton}>
-            <img
-              src="/poligono.png"
-              alt="poligono"
-              height="12px"
-              width="18px"
-            />
-            Vermás
+            <img src="/poligono.png" alt="poligono" />
+            Ver más
           </p>
         </Link>
+      </div>
+      <div className={style.wpp}>
+        <a>
+          <Image src={Wpp} alt={"wpp"} height={56} width={56}></Image>
+        </a>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 .map {
   height: 80vh;
   width: 100%;
-  background: url("/mapa.png");
+  background: url("/mapa.png") no-repeat;
   object-fit: cover;
 }
