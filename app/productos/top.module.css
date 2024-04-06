@@ -3,17 +3,15 @@
   flex-direction: column;
   background: url("/pexels-ksenia-chernaya-5691606 1.png") no-repeat;
   object-fit: cover;
-  height: 100%;
+  height: 80vh;
   align-items: center;
   display: flex;
   object-fit: cover;
-  text-align: justify;
-  color: black;
 }
 .mtxt {
+  margin: 5rem;
   padding: 5rem;
   width: 34rem;
-  justify-content: center;
   align-self: flex-start;
 }
 .title {

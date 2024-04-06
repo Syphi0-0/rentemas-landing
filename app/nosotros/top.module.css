@@ -1,7 +1,7 @@
 .top {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 80vh;
   flex: 1;
   align-items: center;
   justify-content: center;
@@ -10,9 +10,9 @@
   object-fit: cover;
 }
 .mtxt {
+  margin: 5rem;
   padding: 5rem;
   width: 34rem;
-  justify-content: center;
   align-self: flex-start;
 }
 .title {

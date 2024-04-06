@@ -1,9 +1,9 @@
 .clientes {
   background-color: #e1e1e1;
   height: 75vh;
+  padding-top: 10rem;
 }
 .cbdy {
-  position: relative;
   height: 100%;
   width: 100%;
   display: flex;

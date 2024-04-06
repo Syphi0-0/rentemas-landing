@@ -5,7 +5,7 @@
 }
 .mcontainer {
   padding: 6rem 9rem;
-  background: url("/maxresdefault 4.png");
+  background: url("/maxresdefault 4.png") no-repeat;
 }
 .mtxt {
   font-size: 24px;

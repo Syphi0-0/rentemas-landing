@@ -5,7 +5,8 @@
 }
 .mcontainer {
   padding: 6rem 9rem;
-  background: url("/ventajas-de-la-maquinaria-ligera-en-la-construccion2.png");
+  background: url("/ventajas-de-la-maquinaria-ligera-en-la-construccion2.png")
+    no-repeat;
 }
 .mtxt {
   font-size: 24px;
