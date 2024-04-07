@@ -3,7 +3,8 @@
   flex-direction: column;
   background: url("/pexels-ksenia-chernaya-5691606 1.png") no-repeat;
   object-fit: cover;
-  height: 75vh;
+  height: auto;
+  width: 100%;
   align-items: center;
   display: flex;
   object-fit: cover;

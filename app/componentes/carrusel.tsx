@@ -14,7 +14,7 @@ const carrusel = ({ children }: Props) => {
       {children}
       <Carousel
         showThumbs={false}
-        autoPlay={true}
+        autoPlay={false}
         infiniteLoop={true}
         showIndicators={false}
         showStatus={false}
@@ -47,7 +47,7 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img src="maxresdefault 2.png" />
+          <img src="maxresdefault 2.png" height="720px" width="1512px" />
         </div>
         <div className={style.scndbackg}>
           <div className={style.mtxt}>
@@ -69,7 +69,11 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img src="/RENTEMAS WEB_Mesa de trabajo 1 2.png" />
+          <img
+            src="/RENTEMAS WEB_Mesa de trabajo 1 2.png"
+            height="720px"
+            width="1512px"
+          />
         </div>
         <div className={style.thrdbackg}>
           <div className={style.mtxt}>
@@ -84,7 +88,7 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img src="/RENTEMAS WEB-02 2.png" />
+          <img src="/RENTEMAS WEB-02 2.png" height="720px" width="1512px" />
         </div>
         <div className={style.frthbackg}>
           <div className={style.mtxt}>
@@ -104,7 +108,11 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img src="/RENTEMAS WEB_Mesa de trabajo 1 copia 1.png" />
+          <img
+            src="/RENTEMAS WEB_Mesa de trabajo 1 copia 1.png"
+            height="720px"
+            width="1512px"
+          />
         </div>
       </Carousel>
     </div>

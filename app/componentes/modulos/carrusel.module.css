@@ -19,7 +19,8 @@
   background: no-repeat;
 }
 .scndbackg > img {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   background: no-repeat;
   object-fit: cover;
 }
@@ -33,7 +34,8 @@
   background: no-repeat;
 }
 .thrdbackg > img {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   background: no-repeat;
   object-fit: cover;
 }
@@ -47,7 +49,8 @@
   background: no-repeat;
 }
 .frthbackg > img {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   background: no-repeat;
   object-fit: cover;
 }
