@@ -1,14 +1,14 @@
 .backg {
   height: 100%;
   display: flex;
-  object-fit: cover;
   text-align: justify;
   color: black;
-  width: 100%;
-  background: no-repeat;
 }
 .backg > img {
-  height: 100vh;
+  width: 100%;
+  height: auto;
+  background: no-repeat;
+  object-fit: cover;
 }
 .scndbackg {
   height: 100%;
@@ -20,6 +20,8 @@
 }
 .scndbackg > img {
   height: 100vh;
+  background: no-repeat;
+  object-fit: cover;
 }
 .thrdbackg {
   height: 100%;
@@ -32,6 +34,8 @@
 }
 .thrdbackg > img {
   height: 100vh;
+  background: no-repeat;
+  object-fit: cover;
 }
 .frthbackg {
   height: 100%;
@@ -44,6 +48,8 @@
 }
 .frthbackg > img {
   height: 100vh;
+  background: no-repeat;
+  object-fit: cover;
 }
 .mtxt {
   width: 37rem;
@@ -69,39 +75,39 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .medium {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
 }
 .btxt {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
 }
 .hugetxt {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 .hugered {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: #be2428;
 }
 .xltxt {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   text-align: left;
 }
 .redxl {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   color: #be2428;
 }
 .xxltxt {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   color: #be2428;
   margin: 0;
