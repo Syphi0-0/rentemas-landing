@@ -8,6 +8,11 @@ const Top = ({ children }: Props) => {
   return (
     <div className={style.top}>
       {children}
+      <img
+        src="/epoxy-and-waxed-flooring-with-colorful-signage-2023-11-27-05-00-56-utc 1.png"
+        height="507"
+        width="1512"
+      />
       <div className={style.mtxt}>
         <h1 className={style.title}>NOSOTROS</h1>
         <p className={style.btxt}>

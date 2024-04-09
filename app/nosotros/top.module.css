@@ -1,19 +1,24 @@
 .top {
   display: flex;
-  flex-direction: column;
-  height: 75vh;
-  flex: 1;
-  align-items: center;
   justify-content: center;
-  background: url("/epoxy-and-waxed-flooring-with-colorful-signage-2023-11-27-05-00-56-utc 1.png")
-    no-repeat;
+  text-align: center;
+  height: 75vh;
+  width: 100%;
+}
+.top > img {
+  flex: 1;
+  max-width: 1512px;
+  width: 100%;
+  height: auto;
+  object-position: center;
+  background: no-repeat;
   object-fit: cover;
 }
 .mtxt {
-  margin: 5rem;
-  padding: 5rem;
+  position: absolute;
+  align-self: center;
+  margin: 10%;
   width: 34rem;
-  align-self: flex-start;
 }
 .title {
   font-size: 24px;

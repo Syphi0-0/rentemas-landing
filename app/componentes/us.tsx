@@ -1,4 +1,5 @@
 import style from "./modulos/us.module.css";
+import Image from "next/image";
 
 type Props = {
   children?: React.ReactNode;
@@ -8,8 +9,11 @@ const Us = ({ children }: Props) => {
   return (
     <div className={style.us}>
       {children}
+      <div className={style.space}></div>
       <div className={style.body}>
-        <div className={style.img}></div>
+        <div className={style.imag}>
+          <Image src={"/esta.png"} alt={"ola"} height={670} width={670}></Image>
+        </div>
         <div className={style.imgop}>
           <div className={style.bigfoot}>
             <div className={style.utxt}>

@@ -1,19 +1,23 @@
 .top {
-  flex: 1;
-  flex-direction: column;
-  background: url("/pexels-ksenia-chernaya-5691606 1.png") no-repeat;
-  object-fit: cover;
-  height: auto;
-  width: 100%;
-  align-items: center;
   display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 75vh;
+  width: 100%;
+}
+.top > img {
+  width: 100%;
+  max-width: 1512px;
+  height: auto;
   object-fit: cover;
+  object-position: center;
 }
 .mtxt {
-  margin: 5rem;
-  padding: 5rem;
+  justify-content: center;
+  position: absolute;
+  align-self: center;
+  margin: 10%;
   width: 34rem;
-  align-self: flex-start;
 }
 .title {
   font-size: 24px;

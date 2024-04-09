@@ -13,14 +13,12 @@ const Foot = ({ children }: Props) => {
       {children}
       <div className={style.split}>
         <div className={style.frstsplit}>
-          <div className={style.img}>
-            <Image
-              src={inverted}
-              width={175}
-              height={50}
-              alt="Picture of the author"
-            />
-          </div>
+          <Image
+            src={inverted}
+            width={175}
+            height={50}
+            alt="Picture of the author"
+          />
           <p className={style.wtxt}>NAV</p>
           <a className={style.ltxt} href="/productos">
             PRODUCTOS Y SERRVICIOS

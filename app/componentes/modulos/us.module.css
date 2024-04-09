@@ -2,8 +2,8 @@
   background-color: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 150vh;
+  align-items: flex-end;
+  height: 110vh;
 }
 .body {
   width: 85%;
@@ -44,11 +44,17 @@
   font-size: 24px;
   font-weight: 700;
 }
-.img {
+.imag {
   flex: 1;
-  height: 41rem;
-  background: url("/WhatsApp Image 2024-02-15 at 3.42 1.png") no-repeat;
+  display: flex;
+}
+.imag > img {
+  flex: 1;
   object-fit: cover;
+  object-position: center;
+  height: auto;
+  max-width: 670px;
+  width: 100%;
 }
 .imgop {
   flex: 1;

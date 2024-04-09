@@ -16,8 +16,6 @@
   width: 100%;
   background-color: #e1e1e1;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .slider {
   width: 95%;
@@ -30,11 +28,12 @@
   gap: 1rem;
 }
 .inside > img {
-  margin: 0 auto;
-  object-position: center;
   flex: 1;
-  min-width: none;
-  height: auto;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 55%;
+  max-width: 205px;
 }
 .title {
   flex: 1;
