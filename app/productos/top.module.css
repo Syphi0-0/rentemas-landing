@@ -17,7 +17,7 @@
   position: absolute;
   align-self: center;
   margin: 10%;
-  width: 34rem;
+  max-width: 34rem;
 }
 .title {
   font-size: 24px;

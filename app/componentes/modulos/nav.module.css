@@ -1,8 +1,10 @@
 .nav {
   width: 90%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   position: absolute;
+  background-color: black;
   top: 5%;
 }
 .navc {

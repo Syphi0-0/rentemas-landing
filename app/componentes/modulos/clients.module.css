@@ -4,16 +4,16 @@
 }
 .cbdy {
   position: relative;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
 }
 .cslider {
-  height: 50%;
-  width: 100%;
+  min-height: 50%;
+  max-width: 100%;
   background-color: #e1e1e1;
   display: flex;
 }
