@@ -7,7 +7,6 @@
 }
 .backg > img {
   width: 100%;
-  max-width: 1512px;
   height: auto;
   background: no-repeat;
   object-fit: cover;
