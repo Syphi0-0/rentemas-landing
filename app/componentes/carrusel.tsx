@@ -47,7 +47,7 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img src="maxresdefault 2.png" height="720px" width="1512px" />
+          <img src="maxresdefault 2.png" />
         </div>
         <div className={style.scndbackg}>
           <div className={style.mtxt}>
@@ -69,11 +69,7 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img
-            src="/RENTEMAS WEB_Mesa de trabajo 1 2.png"
-            height="720px"
-            width="1512px"
-          />
+          <img src="/RENTEMAS WEB_Mesa de trabajo 1 2.png" />
         </div>
         <div className={style.thrdbackg}>
           <div className={style.mtxt}>
@@ -108,11 +104,7 @@ const carrusel = ({ children }: Props) => {
               </Link>
             </div>
           </div>
-          <img
-            src="/RENTEMAS WEB_Mesa de trabajo 1 copia 1.png"
-            height="720px"
-            width="1512px"
-          />
+          <img src="/RENTEMAS WEB_Mesa de trabajo 1 copia 1.png" />
         </div>
       </Carousel>
     </div>

@@ -6,7 +6,3 @@
   min-height: 100vh;
   justify-content: center;
 }
-.foot {
-  flex: 6;
-  background-color: fuchsia;
-}

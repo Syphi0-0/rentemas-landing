@@ -1,9 +1,11 @@
 .backg {
   height: 100%;
   display: flex;
+  object-fit: cover;
   text-align: justify;
   color: black;
   width: 100%;
+  background: no-repeat;
 }
 .backg > img {
   width: 100%;
@@ -50,7 +52,7 @@
   object-fit: cover;
 }
 .mtxt {
-  max-width: 37rem;
+  width: 37rem;
   justify-content: center;
   position: absolute;
   align-self: center;
