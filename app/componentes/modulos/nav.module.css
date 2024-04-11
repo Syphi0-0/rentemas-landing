@@ -3,7 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-
+  position: absolute;
+  top: 5%;
   flex: 3;
 }
 .navc {

@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "./componentes/container";
 import Top from "./componentes/top";
+import Nav from "./componentes/nav";
 import Sec from "./componentes/second";
 import S_photo from "./componentes/secphoto";
 import Us from "./componentes/us";
@@ -20,6 +21,7 @@ export default function Index() {
       <Container>
         <Top>
           <Carrusel />
+          <Nav></Nav>
         </Top>
         <Sec>
           <S_photo></S_photo>

@@ -1,6 +1,6 @@
 .clientes {
   background-color: #fff;
-  height: 50vh;
+  min-height: 50vh;
 }
 .cbdy {
   position: relative;

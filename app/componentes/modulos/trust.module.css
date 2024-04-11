@@ -13,7 +13,7 @@
 }
 .tcarrusel {
   display: flex;
-  width: 40%;
+  max-width: 40%;
   margin: 0;
   position: relative;
   left: 30%;
