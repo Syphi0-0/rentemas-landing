@@ -9,7 +9,6 @@ const Us = ({ children }: Props) => {
   return (
     <div className={style.us}>
       {children}
-      <div className={style.space}></div>
       <div className={style.body}>
         <div className={style.imag}>
           <Image src={"/esta.png"} alt={"ola"} height={670} width={670}></Image>

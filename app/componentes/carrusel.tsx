@@ -2,6 +2,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import style from "./modulos/carrusel.module.css";
+
 import Link from "next/link";
 
 type Props = {
