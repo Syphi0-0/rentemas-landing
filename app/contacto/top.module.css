@@ -8,7 +8,6 @@
 }
 .top > img {
   flex: 1;
-  max-width: 1512px;
   height: 100%;
   object-position: center;
   background: no-repeat;
