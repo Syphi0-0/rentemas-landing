@@ -17,10 +17,7 @@ export default function scndpage() {
       <Top>
         <Nav></Nav>
       </Top>
-      <Middle>
-        <Left></Left>
-        <Right></Right>
-      </Middle>
+      <Middle></Middle>
       <Bottom></Bottom>
       <Proveedores></Proveedores>
       <Foot></Foot>

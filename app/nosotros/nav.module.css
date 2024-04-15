@@ -5,10 +5,10 @@
   justify-content: flex-start;
   position: absolute;
   top: 5%;
-  flex: 3;
+  flex: 5;
 }
 .navc {
-  flex: 2;
+  flex: 4;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -20,6 +20,8 @@
   left: 25%;
   color: #fff;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .num {
   flex: 1;

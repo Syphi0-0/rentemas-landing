@@ -46,7 +46,9 @@ const Foot = ({ children }: Props) => {
         <div className={style.scndsplit}>
           <div className={style.oothersplit}>
             <p className={style.wtxt}>REDES SOCIALES</p>
-            <Image src={face} alt={"faceboob"} width={16} height={16} />
+            <div className={style.wimg}>
+              <Image src={face} alt={"faceboob"} width={16} height={16} />
+            </div>
           </div>
           <div className={style.othersplit}>
             <p className={style.midtxt}>

@@ -8,8 +8,11 @@
   background: no-repeat;
 }
 .backg > img {
+  flex: 1;
+  max-width: 1512px;
   width: 100%;
   height: auto;
+  object-position: center;
   background: no-repeat;
   object-fit: cover;
 }

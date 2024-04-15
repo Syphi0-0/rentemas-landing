@@ -38,13 +38,16 @@
 .oothersplit {
   position: relative;
   width: 120px;
-  right: 10%;
+  right: 15%;
 }
 .wtxt {
   font-size: 12px;
   font-weight: 700;
   color: white;
   margin: 5px;
+}
+.wimg {
+  padding: 5px;
 }
 .ltxt {
   font-size: 12px;
