@@ -3,7 +3,6 @@
   min-height: 50vh;
 }
 .cbdy {
-  position: relative;
   min-height: 100%;
   max-width: 100%;
   display: flex;
