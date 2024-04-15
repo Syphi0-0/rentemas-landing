@@ -1,6 +1,6 @@
 .secphoto {
   display: flex;
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
   position: absolute;
   justify-content: space-evenly;
@@ -9,9 +9,10 @@
 }
 .dphoto {
   display: flex;
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 1rem;
 }
 .imgone {
   display: flex;
@@ -22,7 +23,7 @@
   width: 21rem;
   padding: 1rem;
   transition: all 1s;
-  height: 21rem;
+  max-height: 21rem;
   background: url("/ventajas-de-la-maquinaria-ligera-en-la-construccion 1.png");
 }
 .imgtwo {
@@ -34,7 +35,7 @@
   width: 21rem;
   padding: 1rem;
   transition: all 1s;
-  height: 21rem;
+  max-height: 21rem;
   background: url("/WhatsApp Image 2024-02-27 at 3.48 1.png");
   object-position: center;
 }
@@ -47,7 +48,7 @@
   width: 21rem;
   padding: 1rem;
   transition: all 1s;
-  height: 21rem;
+  max-height: 21rem;
   background: url("/maxresdefault 3.png");
 }
 .imgone:hover {

@@ -41,9 +41,7 @@ const Sec = ({ children }: Props) => {
         </Link>
       </div>
       <div className={style.wpp}>
-        <a>
-          <Image src={Wpp} alt={"wpp"} height={56} width={56}></Image>
-        </a>
+        <Image src={Wpp} alt={"wpp"} height={56} width={56}></Image>
       </div>
     </div>
   );
