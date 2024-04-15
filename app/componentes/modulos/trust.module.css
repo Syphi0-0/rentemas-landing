@@ -15,7 +15,7 @@
 .tcarrusel {
   align-self: center;
   display: flex;
-  width: 50%;
+  max-width: 50%;
   position: relative;
   left: 25%;
   justify-content: center;
