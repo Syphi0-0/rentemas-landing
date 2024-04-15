@@ -4,11 +4,13 @@
   color: #fff;
 }
 .mcontainer {
+  max-width: 100%;
+  height: auto;
   padding: 6rem 9rem;
   background: url("/WhatsApp Image 2024-02-27 at 3.48 1.png");
 }
 .mtxt {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 .vrtxt {
@@ -16,7 +18,7 @@
   background: transparent;
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }

@@ -20,6 +20,7 @@ const Trust = ({ children }: Props) => {
           showIndicators={false}
           showStatus={false}
           autoPlay={true}
+          stopOnHover={true}
         >
           <div className={style.tcarrusel}>
             <div>

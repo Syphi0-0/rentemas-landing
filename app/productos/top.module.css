@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 75vh;
+  min-height: 75vh;
   width: 100%;
 }
 .top > img {
@@ -20,13 +20,13 @@
   max-width: 34rem;
 }
 .title {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 700;
   text-align: left;
   color: #fff;
 }
 .btxt {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 300;
   text-align: left;
   color: #fafafa;

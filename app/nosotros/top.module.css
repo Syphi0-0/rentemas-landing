@@ -4,6 +4,7 @@
   text-align: center;
   min-height: 75vh;
   width: 100%;
+  gap: 10rem;
 }
 .top > img {
   flex: 1;

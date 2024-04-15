@@ -22,6 +22,7 @@
   cursor: pointer;
 }
 .card {
+  min-height: 422px;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -29,7 +30,7 @@
 }
 .bdytxt {
   flex: 1;
-  padding: 2rem 0 2rem 3rem;
+  padding: 2rem 0 2rem 1rem;
   display: flex;
   flex-direction: column;
   margin-left: 3rem;

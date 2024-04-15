@@ -36,9 +36,8 @@
   margin: 0%;
 }
 .oothersplit {
-  position: relative;
   width: 120px;
-  right: 15%;
+  margin: 0 2rem 0 0;
 }
 .wtxt {
   font-size: 12px;

@@ -1,4 +1,5 @@
 import style from "./top.module.css";
+import Nav from "./nav";
 
 type Props = {
   children?: React.ReactNode;
@@ -8,6 +9,7 @@ const Top = ({ children }: Props) => {
   return (
     <div className={style.top}>
       {children}
+      <Nav></Nav>
       <img
         src="/epoxy-and-waxed-flooring-with-colorful-signage-2023-11-27-05-00-56-utc 1.png"
         height="507"
