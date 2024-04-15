@@ -55,7 +55,7 @@
   object-fit: cover;
 }
 .mtxt {
-  width: 37rem;
+  max-width: 37rem;
   justify-content: center;
   position: absolute;
   align-self: center;
